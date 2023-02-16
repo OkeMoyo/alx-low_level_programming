@@ -1,2 +1,10 @@
-#!/bin/bash
-#include <stdio.h>; int main(void) {puts("Programming is like building a multilingual puzzle\n"); return (0);}
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+	char str1[] = "Programming is like building a multilingual puzzle\n";
+	puts(str1);
+
+	return(0);
+}
