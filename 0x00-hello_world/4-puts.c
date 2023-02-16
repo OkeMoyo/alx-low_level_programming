@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 
+/**
+ * main - this program prints the below string to standard output
+ */
 int main(void)
-	/**
-	 * main - this program prints the below string to standard output
-	 */
 {
 	char *str1 = "\"Programming is like building a multilingual puzzle";
 
