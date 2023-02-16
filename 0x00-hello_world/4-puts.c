@@ -3,7 +3,7 @@
 
 int main(void)
 	/**
-	 * this program prints the below string to standard output
+	 * main - this program prints the below string to standard output
 	 */
 {
 	char *str1 = "\"Programming is like building a multilingual puzzle";
