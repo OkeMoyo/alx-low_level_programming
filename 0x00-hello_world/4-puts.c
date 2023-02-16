@@ -9,6 +9,8 @@ int main(void)
 	char *str1 = "\"Programming is like building a multilingual puzzle";
 
 	puts(str1);
-
+	/**
+	 * since you want me to document the return function, here you go
+	 */
 	return (0);
 }
