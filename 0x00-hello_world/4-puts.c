@@ -3,7 +3,7 @@
 
 /**
  * main - this program prints the below string to standard output
- * return value is always 0;
+ * return: value is always 0 (Success);
  */
 int main(void)
 {
