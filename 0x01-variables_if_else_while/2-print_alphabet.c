@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int x = 'a'
+	int x = 'a';
 
 	putchar (x);
 	x++;
