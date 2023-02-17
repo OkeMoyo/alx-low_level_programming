@@ -2,7 +2,9 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * betty style doc for function main goes there
+ * main - entry point of the program
+ *
+ * Return: checks if the value of n is +ve or -ve
  */
 int main(void)
 {
@@ -22,6 +24,6 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-	/* betty style doc for function return goes here */
+
 	return (0);
 }
