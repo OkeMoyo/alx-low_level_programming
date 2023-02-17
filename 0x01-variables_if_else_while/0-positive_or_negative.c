@@ -23,5 +23,5 @@ int main(void)
 		printf("%d is negative\n", n);
 	}
 	/* betty style doc for function return goes here */
-	return (0)
+	return (0);
 }
