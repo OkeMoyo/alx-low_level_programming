@@ -10,9 +10,8 @@ int main(void)
 {
 	int x = 'a';
 
-	putchar (x);
-	x++;
-	putchar (x++);
+	if (x <= 'z')
+		putchar (x++);
 
 	return (0);
 }
