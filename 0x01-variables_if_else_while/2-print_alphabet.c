@@ -12,6 +12,7 @@ int main(void)
 
 	putchar (x);
 	x++;
+	putchar (x++);
 
 	return (0);
 }
