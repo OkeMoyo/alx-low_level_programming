@@ -11,6 +11,7 @@ int main(void)
 	int y = 'A';
 
 	putchar(x);
+	putchar(y);
 
 	return (0);
 }
