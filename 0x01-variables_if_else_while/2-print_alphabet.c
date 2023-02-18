@@ -8,9 +8,10 @@
 
 int main(void)
 {
-	long x = 'abcdefghijklmnopqrstuvwxyz';
+	long x = 'abcdefghijklm';
+	long y = 'nopqrstuvwxyz';
 
 	putchar(x);
-
+	putchar(y);
 	return (0);
 }
