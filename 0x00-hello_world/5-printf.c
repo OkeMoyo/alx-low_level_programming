@@ -3,6 +3,8 @@
 
 /**
  * main - this is the main function
+ *
+ * Return: prints a particular string
  */
 int main(void)
 {
