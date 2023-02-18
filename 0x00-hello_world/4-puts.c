@@ -3,7 +3,7 @@
 
 /**
  * main - this program prints the below string to standard output
- * 
+ *
  * Return: value is always zero
  */
 int main(void)
