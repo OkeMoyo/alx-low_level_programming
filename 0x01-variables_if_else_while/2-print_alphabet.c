@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	long char x = 'abcdefghijklmnopqrstuvwxyz';
+	long x = 'abcdefghijklmnopqrstuvwxyz';
 
 	putchar(x);
 
