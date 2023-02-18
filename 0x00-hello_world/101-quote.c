@@ -6,7 +6,9 @@
  */
 int main(void)
 {
-	int c = "and that piece of art is useful \" - Dora Korpar, 2015-10-19";
+	char c;
+
+	c = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 	putchar(c);
 	putchar('\n');
 
