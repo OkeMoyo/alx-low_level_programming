@@ -10,8 +10,17 @@ int main(void)
 	int x = 'a';
 	int y = 'A';
 
-	putchar(x);
-	putchar(y);
+	while (x <= 'z')
+	{
+		putchar(x);
+		x = x + 1;
+	}
+	while (y <= 'Z')
+	{
+		putchar(y);
+		y = y + 1;
+	}
+	putchar('\n');
 
 	return (0);
 }
