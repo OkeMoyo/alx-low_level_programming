@@ -6,12 +6,13 @@
  */
 int alphabet(char c)
 {
-	char i = 'a';
+	char c = 'a';
 
-	while (i <= 'z')
+	while (c <= 'z')
 	{
-		putchar(i);
-		i++;
+		putchar(c);
+		c++;
 	}
+	putchar('\n');
 	return (0);
 }
