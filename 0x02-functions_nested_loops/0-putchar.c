@@ -1,12 +1,12 @@
-#include <stdio.h>
 #include <unistd.h>
-#include "_putchar.h"
+#include "main.h"
 /**
- * main - this program prints "_putchar"
+ * main - print _putchar to stdout
  *
- * Return: it returns the string "_putchar"
+ * Return: 0 on success
  */
-int main()
+int main(void)
 {
-
+	write(1, "_putchar\n", 9);
+	return (0);
 }

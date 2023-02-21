@@ -1,18 +1,18 @@
-#include <unistd.h>
+#include "main.h"
 /**
- * main - entry point of the program
+ * print_alphabet - entry point of the program
  *
  * Return: prints the alphabet in lowercase
  */
-int alphabet()
+void print_alphabet(void)
 {
-	char c = 'a';
+	char alphabet = 'a';
 
-	while (c <= 'z')
+	while (alphabet <= 'z')
 	{
-		putchar(c);
-		c++;
+		_putchar(alphabet);
+		alphabet++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
