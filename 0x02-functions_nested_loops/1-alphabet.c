@@ -4,7 +4,7 @@
  *
  * Return: prints the alphabet in lowercase
  */
-int alphabet(char c)
+int alphabet()
 {
 	char c = 'a';
 
