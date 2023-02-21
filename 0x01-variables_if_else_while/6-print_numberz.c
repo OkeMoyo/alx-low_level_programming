@@ -1,18 +1,14 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <limits.h>
 /**
  * main - entry point of the program
  *
- * Return: prints all single digit base 10 numbers
+ * Return: prints all single digit base ten numbers
  */
 int main(void)
 {
-	int i = 0;
-
-	while (i < 10)
-	{
-		putchar(i);
-		i++;
-	}
+	putchar(64);
 	putchar('\n');
 
 	return (0);
