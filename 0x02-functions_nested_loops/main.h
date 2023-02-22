@@ -4,5 +4,5 @@
 int _putchar(char c);
 
 /* function to print the lower case alphabet */
-print_alphabet(void);
+void print_alphabet(void);
 #endif
