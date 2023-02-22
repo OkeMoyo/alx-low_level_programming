@@ -17,6 +17,6 @@ int _isalpha(int c)
 	{
 		r = c * 0;
 	}
-	write(1, "\n", 1);
 	return (r);
+	write(1, "\n", 1);
 }
