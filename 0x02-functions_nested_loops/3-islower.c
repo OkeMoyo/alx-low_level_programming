@@ -2,6 +2,8 @@
 #include <unistd.h>
 /**
  * _islower - checks if the character is lower case
+ *@c: character whose case is to be checked
+ * Return: 1 if lowercase, 0 if not
  */
 int _islower(int c)
 {
@@ -17,5 +19,5 @@ int _islower(int c)
 	}
 
 	write(1, "\n", 1);
-	return retval;
+	return (retval);
 }
