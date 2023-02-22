@@ -17,7 +17,6 @@ int _islower(int c)
 	{
 		retval = c * 0;
 	}
-
 	write(1, "\n", 1);
 	return (retval);
 }
