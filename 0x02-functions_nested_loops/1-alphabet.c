@@ -5,7 +5,6 @@
  *
  * Return: prints the alphabet in lowercase
  */
-int _putchar(char c);
 
 void print_alphabet(void)
 {
@@ -16,6 +15,6 @@ void print_alphabet(void)
 		_putchar(c);
 		c++;
 	}
-	_putchar('\n');
+	write(1, "\n", 1);
 	return;
 }
