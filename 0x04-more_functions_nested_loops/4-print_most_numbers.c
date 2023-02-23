@@ -4,7 +4,6 @@
 
 /**
  * print_most_numbers - prints all digits from 0 to 9 except 2 and 4
- * Return: no return value
  */
 
 void print_most_numbers(void)
