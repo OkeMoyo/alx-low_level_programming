@@ -4,7 +4,7 @@
 
 /**
  * print_numbers - prints all single digits
- * @n: parameter input to function
+ *
  * Return: all the numbers from 0 to 9
  */
 
