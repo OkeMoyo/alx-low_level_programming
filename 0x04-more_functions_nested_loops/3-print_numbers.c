@@ -4,8 +4,6 @@
 
 /**
  * print_numbers - prints all single digits
- *
- * Return: all the numbers from 0 to 9
  */
 
 void print_numbers(void)
@@ -18,5 +16,5 @@ void print_numbers(void)
 		printf("%d", n);
 		n++;
 	}
-	write(1, "\n", 1);
+	printf("\n");
 }
