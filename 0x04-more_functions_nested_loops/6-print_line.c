@@ -1,5 +1,6 @@
 #include "main.h"
 #include <unistd.h>
+#include <stdio.h>
 
 /**
  * print_line - draws a straight line in the terminal
@@ -7,17 +8,13 @@
 
 void print_line(int n)
 {
-	char c;
-	char result;
+	int i;
 
-	c = 95;
-	if (n <= 0)
+	i = 0;
+	while (i <= n)
 	{
-		_putchar('\n');
+		_putchar('_');
+		i++;
 	}
-	else
-	{
-		result = c * n;
-		_putchar(result);
-	}
+	_putchar('\n');
 }
