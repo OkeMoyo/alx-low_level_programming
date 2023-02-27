@@ -1,16 +1,21 @@
 #include "main.h"
-
+#include <unistd.h>
+#include <stddef.h>
+#include <stdio.h>
 /**
  * _strlen - prints the length of a string
- * @s - the string whose length will be printed
+ * @s: the string whose length will be printed
  * Return: 1
  */
 
-int _strlen(char *s)
+size_t _strlen(const char *s)
 {
-	int len;
+	size_t len = 0;
 
-	len = sizeof(s);
-
+	while (*s++)
+	{
+		len++;
+	}
+	write(1, "\n", 1);
 	return (len);
 }

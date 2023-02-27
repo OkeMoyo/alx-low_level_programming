@@ -1,12 +1,12 @@
 #ifndef MAIN_H
 #define MAIN_H
-
+#include <stddef.h>
 /* Header file for pointers, arrays, and strings project */
 void reset_to_98(int *n);
 
 void swap_int(int *a, int *b);
 
-int _strlen(char *s);
+size_t _strlen(const char *s);
 
 void _puts(char *str);
 
