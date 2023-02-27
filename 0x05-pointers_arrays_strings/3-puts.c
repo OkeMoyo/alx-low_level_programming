@@ -1,7 +1,7 @@
 #include "main.h"
 #include <unistd.h>
 #include <stdio.h>
-
+#include <string.h>
 /**
  * _puts - prints a string to stdout
  * Return: 1
