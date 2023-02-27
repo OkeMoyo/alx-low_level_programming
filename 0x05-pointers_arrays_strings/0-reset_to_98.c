@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * main - updates a variable value using a pointer
+ * reset_to_98 - updates a variable value using a pointer
+ * @n: parameter's value to be changed
+ *
  * Return: 0 I guess
  */
 
