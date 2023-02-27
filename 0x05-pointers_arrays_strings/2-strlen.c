@@ -20,7 +20,7 @@ int _strlen(char *s)
 	{
 		while (s[i] != '\0')
 		{
-			n = i++;
+			n = n++;
 			i++;
 		}
 	}
