@@ -1,28 +1,19 @@
 #include "main.h"
-#include <unistd.h>
 
 /**
  * _strlen - prints the length of a string
  * @s: the string whose length will be printed
- * Return: 1
+ * Return: length
  */
 
 int _strlen(char *s)
 {
-	int i = 0;
-	int n;
+	int len = 0;
 
-	if (s[i] == '\0')
+	while (*s != '\0')
 	{
-		n = 0;
+		len++;
+		s++;
 	}
-	else
-	{
-		while (s[i] != '\0')
-		{
-			n = i++;
-			i++;
-		}
-	}
-	return (n);
+	return (len);
 }
