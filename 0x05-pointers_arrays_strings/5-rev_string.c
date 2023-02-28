@@ -15,7 +15,8 @@ void rev_string(char *s)
 
 	while (i >= 0)
 	{
-		printf(s[i]);
+		write(1, const void *s[i], 1);
 		i--;
 	}
+	write(1, "\n", 1);
 }
