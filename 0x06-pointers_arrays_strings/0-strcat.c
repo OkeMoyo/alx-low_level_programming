@@ -35,7 +35,7 @@ char *_strcat(char *dest, char *src)
 				*(dest + (i + 1)) = *(src + j);
 			}
 		}
+		ptr = dest;
 	}
-	ptr = dest;
 	return (ptr);
 }
