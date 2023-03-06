@@ -1,11 +1,19 @@
 #include "main.h"
 
 /**
+ * _putchar - prints a char to stdout
+ * @c: char to be printed to stdout
+ * Return: int
+ */
+
+int _putchar(char c);
+
+/**
  * print_chessboard - prints the chessboard
  * @a: one argument
  * Return: the chessboard
  */
-int _putchar(char c);
+
 void print_chessboard(char (*a)[8])
 {
 	int i;
