@@ -3,9 +3,9 @@
 
 /**
  * main - multiplies two numbers
- * @argc - argument count
- * @argv - argument vector
- * Return - result of multiplication
+ * @argc: argument count
+ * @argv: argument vector
+ * Return: result of multiplication
  */
 
 int main(int argc, char *argv[])
