@@ -4,8 +4,8 @@
 #include <ctype.h>
 /**
  * main - adds positive numbers
- * argc: argument count
- * argv: argument vector
+ * @argc: argument count
+ * @argv: argument vector
  * Return: sum
  */
 
