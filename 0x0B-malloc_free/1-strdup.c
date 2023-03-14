@@ -13,7 +13,7 @@ char *_strdup(char *str)
 	size_t i;
 	char *s;
 
-	s = malloc(sizeof(char) * strlen(str));
+	s = malloc(sizeof(char) * (strlen(str) + 1));
 
 	if (str == NULL)
 		printf("failed to allocate memory");
