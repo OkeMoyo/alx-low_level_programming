@@ -13,17 +13,17 @@ char *_strdup(char *str)
 	size_t i;
 	char *s;
 
-	s = malloc(sizeof(char) * (strlen(str) + 1));
-
 	if (str == NULL)
 		return (NULL);
 
-	if (sizeof(s) < sizeof(str))
+	s = malloc(sizeof(char) * (strlen(str) + 1));
+
+	if (s == NULL)
 		return (NULL);
+
 	for (i = 0; i < strlen(str); i++)
 	{
 		s[i] = *(str + i);
 	}
 	return (s);
-	free(s);
 }
