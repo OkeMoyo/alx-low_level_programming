@@ -9,9 +9,9 @@
  * @n: the number of strings to print
  */
 
-void print_string(const char *separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
-	char a;
+	const char *a;
 	unsigned int i;
 	va_list my_strings;
 
@@ -19,10 +19,8 @@ void print_string(const char *separator, const unsigned int n, ...)
 
 	for (i = 0; i < n; i++)
 	{
-		a = va_arg(my_strings, int);
-		if (a == NULL)
-			printf("(nil)");
-		printf("%d", a);
+		a = va_arg(my_strings, const char*);
+		printf("%s", a);
 		if (i != n - 1 && separator != NULL)
 		{
 			printf("%s", separator);
