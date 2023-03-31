@@ -13,18 +13,13 @@ size_t list_len(const list_t *h)
 {
 	int i = 0;
 
-	while (h->next != NULL)
+	if (h == NULL)
+		return (i);
+
+	while (h != NULL)
 	{
-		if (h == NULL)
-		{
-			i = -1;
-		}
-		else
-		{
-			i++;
-			h = h->next;
-		}
+		i++;
+		h = h->next;
 	}
-	i = i + 1;
 	return (i);
 }
