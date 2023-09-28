@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- * main - prints its name
- * @argc: count
- * @argv: vector
- * Return: name
+ * main - prints the name of the program
+ * argc: number of arguments
+ * *argv: array of arguments
+ * Return: name of the program
  */
 
-int main(__attribute__((unused)) int argc, char *argv[])
+int main(int _attribute_((unused)) argc, char *argv[])
 {
 	printf("%s\n", argv[0]);
 	return (0);

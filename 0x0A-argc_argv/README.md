@@ -1,1 +1,1 @@
-argc - argument count, argv - argument vector
+This directory contains the projects for the argc and argv topic
